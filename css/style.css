@@ -1,0 +1,16 @@
+#add,#subtract,#division,#multiplication{
+  display: none;
+}
+body{
+  background-image: url("http://sfwallpaper.com/images/1200-x-1920-wallpaper-29.jpg");
+  background-repeat: no-repeat;
+}
+h1{
+  color: #43FBF0;
+}
+h5{
+  color: #439CFB;
+}
+.container{
+  width: 500px;
+}

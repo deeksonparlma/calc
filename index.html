@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Calculator</title>
+      <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <link href="css/style.css" rel="stylesheet" type="text/css">
+   </head>
+     <body><br>
+        <div class="container">
+          <h1>Calculator</h1>
+          <h5>Choose an operation</h5>
+        <div class="panel panel-info">
+
+          <!--addition form-->
+
+          <div class="panel-heading">
+            <p id="addstart">Addition</p>
+          </div>
+          <div class="panel-body">
+            <form id="add">
+               <div class="form-group">
+                 <label for="add1">1st number:</label>
+                 <input id="add1" class="form-control" type="number">
+               </div>
+               <div class="form-group">
+                  <label for="add2">2nd number:</label>
+                  <input id="add2" class="form-control" type="number">
+                </div>
+               <button type="submit" class="btn btn-success">Add</button><button type="reset" class="btn btn-danger">reset</button>
+            </form>
+          </div>
+          <div id="answer1"></div>
+
+          <!--subtraction form-->
+
+          <div class="panel-heading">
+            <p id="subtractstart">Subtraction</p>
+          </div>
+          <div class="panel-body">
+            <form id="subtract">
+               <div class="form-group">
+                 <label for="subtract1">1st number:</label>
+                 <input id="subtract1" class="form-control" type="number">
+               </div>
+               <div class="form-group">
+                  <label for="subtract2">2nd number:</label>
+                  <input id="subtract2" class="form-control" type="number">
+                </div>
+               <button type="submit" class="btn btn-success">Subtract</button><button type="reset" class="btn btn-danger">reset</button>
+            </form>
+          </div>
+          <div id="answer2"></div>
+
+          <!--Division form-->
+
+          <div class="panel-heading">
+            <p id="dividestart">Division</p>
+          </div>
+          <div class="panel-body">
+            <form id="division">
+               <div class="form-group">
+                 <label for="divide1">1st number:</label>
+                 <input id="divide1" class="form-control" type="number">
+               </div>
+               <div class="form-group">
+                  <label for="divide2">2nd number:</label>
+                  <input id="divide2" class="form-control" type="number">
+                </div>
+               <button type="submit" class="btn btn-success">Divide</button><button type="reset" class="btn btn-danger">reset</button>
+            </form>
+          </div>
+          <div id="answer3"></div>
+
+          <!--multiplication form-->
+
+          <div class="panel-heading">
+            <p id="multiplystart">Multiply</p>
+          </div>
+          <div class="panel-body">
+            <form id="multiplication">
+               <div class="form-group">
+                 <label for="multiply1">1st number:</label>
+                 <input id="multiply1" class="form-control" type="number">
+               </div>
+               <div class="form-group">
+                  <label for="multiply2">2nd number:</label>
+                  <input id="multiply2" class="form-control" type="number">
+                </div>
+               <button type="submit" class="btn btn-success">Multipy</button><button type="reset" class="btn btn-danger">reset</button>
+            </form>
+          </div>
+          <div id="answer4"></div>
+          <div class="panel-footer">
+            <p>Copyright 2019</p>
+          </div>
+        </div>
+      </div>
+      <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+      <script src="js/scripts.js"></script>
+   </body>
+</html>
